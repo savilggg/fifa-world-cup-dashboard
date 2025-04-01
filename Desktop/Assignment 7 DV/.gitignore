@@ -1,0 +1,6 @@
+# Ignore system and unnecessary files
+.DS_Store
+.Trash/
+Library/
+Pictures/
+.vscode/
