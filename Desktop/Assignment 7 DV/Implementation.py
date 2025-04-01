@@ -8,6 +8,7 @@ df = pd.read_csv("world_cup_data.csv")
 
 # Dash app setup
 app = dash.Dash(__name__)
+server = app.server
 
 # Create Choropleth map
 fig = px.choropleth(df, locations='Winner', locationmode='country names',
